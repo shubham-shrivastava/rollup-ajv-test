@@ -1,0 +1,161 @@
+module.exports = {
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "extends": [],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "project": "tsconfig.json",
+      "sourceType": "module"
+    },
+    "plugins": [
+      "eslint-plugin-import",
+      "eslint-plugin-jsdoc",
+      "eslint-plugin-prefer-arrow"
+    ],
+    "rules": {
+      "arrow-body-style": "error",
+      "arrow-parens": [
+        "off",
+        "always"
+      ],
+      "brace-style": [
+        "off",
+        "off"
+      ],
+      "comma-dangle": "off",
+      "complexity": "off",
+      "constructor-super": "error",
+      "curly": [
+        "error",
+        "multi-line"
+      ],
+      "eol-last": "error",
+      "eqeqeq": [
+        "error",
+        "smart"
+      ],
+      "guard-for-in": "error",
+      "id-denylist": [
+        "error",
+        "any",
+        "Number",
+        "number",
+        "String",
+        "string",
+        "Boolean",
+        "boolean",
+        "Undefined",
+        "undefined"
+      ],
+      "id-match": "error",
+      "import/no-deprecated": "warn",
+      "import/order": "off",
+      "jsdoc/check-alignment": "error",
+      "jsdoc/check-indentation": "error",
+      "jsdoc/newline-after-description": "error",
+      "jsdoc/no-types": "error",
+      "max-classes-per-file": "off",
+      "max-len": [
+        "error",
+        {
+          "code": 250
+        }
+      ],
+      "new-parens": "error",
+      "no-array-constructor": "off",
+      "no-bitwise": "off",
+      "no-caller": "error",
+      "no-cond-assign": "error",
+      "no-console": [
+        "error",
+        {
+          "allow": [
+            "log",
+            "dirxml",
+            "warn",
+            "error",
+            "dir",
+            "timeLog",
+            "assert",
+            "clear",
+            "count",
+            "countReset",
+            "group",
+            "groupCollapsed",
+            "groupEnd",
+            "table",
+            "Console",
+            "markTimeline",
+            "profile",
+            "profileEnd",
+            "timeline",
+            "timelineEnd",
+            "timeStamp",
+            "context"
+          ]
+        }
+      ],
+      "no-debugger": "error",
+      "no-empty": "off",
+      "no-empty-function": "off",
+      "no-eval": "error",
+      "no-extra-semi": "off",
+      "no-fallthrough": "error",
+      "no-implied-eval": "off",
+      "no-invalid-this": "off",
+      "no-multiple-empty-lines": "off",
+      "no-new-wrappers": "error",
+      "no-restricted-imports": [
+        "error",
+        "rxjs/Rx"
+      ],
+      "no-shadow": [
+        "error",
+        {
+          "hoist": "all"
+        }
+      ],
+      "no-throw-literal": "error",
+      "no-trailing-spaces": "error",
+      "no-undef-init": "error",
+      "no-unsafe-finally": "error",
+      "no-unused-labels": "error",
+      "no-unused-vars": "off",
+      "no-var": "error",
+      "object-shorthand": "error",
+      "one-var": [
+        "error",
+        "never"
+      ],
+      "prefer-arrow/prefer-arrow-functions": "error",
+      "prefer-const": "error",
+      "quote-props": [
+        "error",
+        "as-needed"
+      ],
+      "radix": "error",
+      "require-await": "off",
+      "space-before-function-paren": [
+        "error",
+        {
+          "anonymous": "never",
+          "asyncArrow": "always",
+          "named": "never"
+        }
+      ],
+      "spaced-comment": [
+        "error",
+        "always",
+        {
+          "markers": [
+            "/"
+          ]
+        }
+      ],
+      "use-isnan": "error",
+      "valid-typeof": "off"
+    }
+  };
+  
